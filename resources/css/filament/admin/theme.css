@@ -1,0 +1,26 @@
+/* Fondo general con un sutil degradado azulado */
+.fi-body {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%) !important;
+}
+
+.dark .fi-body {
+    background: linear-gradient(135deg, #0f172a 0%, #172554 100%) !important;
+}
+
+/* Tarjetas de KPIs con borde superior azul y sombra suave */
+.fi-wi-stats-overview-stat {
+    border-top: 3px solid #2563eb !important;
+    border-radius: 0.75rem !important;
+    box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.08) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.fi-wi-stats-overview-stat:hover {
+    transform: translateY(-2px) !important;
+}
+
+/* Tablas más limpias y estilizadas */
+.fi-ta-ctn {
+    border-radius: 0.75rem !important;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05) !important;
+}
